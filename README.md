@@ -71,7 +71,7 @@ public class DoubbleSort implements IArraySorty{
 
 ## 2、选择排序
 
-[选择排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/SelectSort.java)
+[选择排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/SelectSort.java)
 
 选择排序无论什么数据进去都是O(n^2)的时间复杂度，用到它时数据规模小越小越好。
 
@@ -103,7 +103,7 @@ public class SelectSort implements IArraySorty{
 
 ## 3、插入排序
 
-[插入排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/InsertionSort.java)
+[插入排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/InsertionSort.java)
 
 从头到尾扫描每一个元素，把元素插入到合适的位置。
 
@@ -133,7 +133,7 @@ public class insertionSort implements IArraySorty{
 
 ## 4、希尔排序
 
-[希尔排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/ShellSort.java)
+[希尔排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/ShellSort.java)
 
 希尔排序也称为递减增量排序，是插入排序的一种更高效的改进版本。但希尔排序是非稳定的排序算法。
 
@@ -175,7 +175,7 @@ public class ShellSort implements IArraySorty{
 
 ## 5、归并排序
 
-[归并排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/MergeSort.java)
+[归并排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/MergeSort.java)
 
 主要思想是分治的方法，递归调用，划分区域，直到每块区域大小为一，后在上层的递归调用中合并到一起，就得到有序地小区域，然后上层继续合并。
 
@@ -216,7 +216,7 @@ public class MergeSort implements IArraySorty{
 
 ## 6、快速排序
 
-[快速排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/QuickSort.java)
+[快速排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/QuickSort.java)
 
 快排的思想主要利用了分治策略，选择一个基准，递归中范围内的数据中，小于它的放到它的前面。大于它的放到它的后面，递归实现到最后排序成功。
 
@@ -258,7 +258,7 @@ public class QuickSort implements IArraySorty{
 
 ## 7、堆排序
 
-[堆排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/HeapSort.java)
+[堆排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/HeapSort.java)
 
 主要利用了数据结构：堆的特性（某个节点的值总是小于或等于根节点的值，是一颗完全二叉树）
 
@@ -321,7 +321,7 @@ public class HeapSort implements IArraySorty {
 
 ## 8、计数排序
 
-[计数排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/CountingSort.java)
+[计数排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/CountingSort.java)
 
 主要思想是把排序对象放到容量只够的数组中，统计每个数出现的次数，后遍历新数组，达到排序目的。
 
@@ -354,7 +354,7 @@ public class CountingSort implements IArraySorty{
 
 ## 9、桶排序
 
-[桶排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/BucketSort.java)
+[桶排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/BucketSort.java)
 
 桶排序是计数排序的升级版。它利用了函数的映射关系，高效与否在于这个映射函数的确定。为了使排序更加高效，我们需要做到这两点：
 
@@ -415,7 +415,7 @@ public class BucketSort implements IArraySorty{
 
 ## 10、基数排序
 
-[基数排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/RadixSort.java)
+[基数排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/RadixSort.java)
 
 主要思想是：从个位到最高位，每次排序比较位数所在的值，后依次存到一个桶中，再取出，按高一位的值比较，往复循环，找到最大的数的最高位比较晚，则排序完好。
 
