@@ -34,7 +34,7 @@ O(n1+§)) 排序，§ 是介于 0 和 1 之间的常数。 希尔排序
 
 ## 1、冒泡排序
 
-[冒泡排序](https://github.com/mydy930657303/sortAlgorithm/blob/master/src/main/java/sort/DoubbleSort.java)
+[冒泡排序](https://github.com/ddddjc/sortAlgorithm/blob/master/src/main/java/sort/DoubbleSort.java)
 
 冒泡排序的思想就是从底开始往上排序，相邻的两个如果排序错误，则交换过来。经过多次交换，最大那个数`冒泡到顶部`
 
